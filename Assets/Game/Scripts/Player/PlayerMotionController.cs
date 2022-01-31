@@ -28,7 +28,6 @@ public class PlayerMotionController : MonoBehaviour
             }
 
         }
-        transform.rotation = Quaternion.Euler(new Vector3(0, defaultMoveAngle * currentMoveDirection, 0));
     }
 
     #endregion

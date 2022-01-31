@@ -8,6 +8,7 @@ public enum Direction
     Right,
     Up,
     Down,
+    None
 }
 
 public class StaticMethods : MonoBehaviour
