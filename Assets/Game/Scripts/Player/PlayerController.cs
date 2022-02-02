@@ -25,6 +25,11 @@ public class PlayerController : MonoBehaviour
         PlayerInput.OnStopMotion -= StopMotion;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
+
     #endregion
 
     #region Public Methods
